@@ -6,45 +6,21 @@ This portfolio shows how I think about **running an organisation where AI agents
 
 LinkedIn: linkedin.com/in/mohitbhtgr
 
-## Start here
+## Projects, most technically complex first
 
-| | |
-|---|---|
-| [**ai-operating-model**](https://github.com/MohitBhatnnagar/ai-operating-model) | The operating model and a case study: work design, organisation, quality system, rhythm, onboarding. Read this first. |
+| # | Repo | What it shows | Tests |
+|---|---|---|---|
+| 1 | [ai-quality-and-evals](https://github.com/MohitBhatnnagar/ai-quality-and-evals) | Statistics for AI and human quality: SPC control charts, reviewer calibration (Cohen's kappa), BM25 / TF-IDF / hybrid retrieval evaluation with bootstrap confidence intervals | 34 |
+| 2 | [agentflow-hitl](https://github.com/MohitBhatnnagar/agentflow-hitl) | Workflow engine for AI agents: autonomy policy, durable approval gates, held outputs, hash-chained audit log | 20 |
+| 3 | [ops-mcp-server](https://github.com/MohitBhatnnagar/ops-mcp-server) | A Model Context Protocol server (JSON-RPC over stdio) with strict input validation and approval-only writes | 23 |
+| 4 | [agentic-ai-patterns](https://github.com/MohitBhatnnagar/agentic-ai-patterns) | ReAct, plan-and-execute and reflection, with budgets, allow-listed tools and prompt-injection handling | 26 |
+| 5 | [automation-business-case](https://github.com/MohitBhatnnagar/automation-business-case) | ROI and NPV with scenarios, Holt-Winters demand forecasting with backtests, capacity and hiring plans | 29 |
+| 6 | [persona-studio](https://github.com/MohitBhatnnagar/persona-studio) | A shipped full-stack AI product (React and Node, async jobs, consent gate, rate limits). Live at mohitstudio.dev | |
+| 7 | [ai-governance-framework](https://github.com/MohitBhatnnagar/ai-governance-framework) | Risk tiering, approval matrix and incident response, mapped to NIST AI RMF | 18 |
+| 8 | [ai-workforce-design-playbook](https://github.com/MohitBhatnnagar/ai-workforce-design-playbook) | Method and scoring tool for deciding what agents do alone, with approval, or not at all | 22 |
+| 9 | [ai-operating-model](https://github.com/MohitBhatnnagar/ai-operating-model) | The operating model and case study: work design, organisation, quality system, rhythm, onboarding | docs |
+| 10 | [horaskope](https://github.com/MohitBhatnnagar/horaskope) | A shipped consumer AI product with a two-stage pipeline, about 11,000 readings in beta. Live at horaskope.lovable.app | 8 |
 
-## Operating frameworks (with working tools)
+Order is by technical complexity (code volume, number of moving parts, depth of the underlying method). Rows 1 to 5 are the engineering depth; rows 7 to 9 are the management frameworks that tie the work together; rows 6 and 10 are products I shipped.
 
-| Repo | What it answers | Tests |
-|---|---|---|
-| [ai-workforce-design-playbook](https://github.com/MohitBhatnnagar/ai-workforce-design-playbook) | Which work should agents do alone, with approval, or not at all? | 22 |
-| [ai-governance-framework](https://github.com/MohitBhatnnagar/ai-governance-framework) | How do we tier risk, assign approvers and respond to incidents? Mapped to NIST AI RMF. | 18 |
-| [ai-quality-and-evals](https://github.com/MohitBhatnnagar/ai-quality-and-evals) | How do we measure quality and keep it improving? SPC, reviewer calibration, RAG evaluation. | 34 |
-| [automation-business-case](https://github.com/MohitBhatnnagar/automation-business-case) | Is it worth it, and how many people will we need? ROI, forecasting, capacity. | 29 |
-
-## Agentic AI engineering
-
-| Repo | What it shows | Tests |
-|---|---|---|
-| [agentflow-hitl](https://github.com/MohitBhatnnagar/agentflow-hitl) | Workflow engine with autonomy policy, human approval gates and a tamper-evident audit log | 20 |
-| [agentic-ai-patterns](https://github.com/MohitBhatnnagar/agentic-ai-patterns) | ReAct, plan-and-execute, reflection, with budgets and prompt-injection handling | 26 |
-| [ops-mcp-server](https://github.com/MohitBhatnnagar/ops-mcp-server) | A Model Context Protocol server with strict validation and approval-only writes | 23 |
-
-## Products I shipped
-
-| Repo | What it is |
-|---|---|
-| [persona-studio](https://github.com/MohitBhatnnagar/persona-studio) | AI portrait studio, live at mohitstudio.dev. React and Node, async jobs, consent gate, rate limits |
-| [horaskope](https://github.com/MohitBhatnnagar/horaskope) | AI horoscope platform, live at horaskope.lovable.app. About 11,000 readings in beta. Two-stage AI pipeline |
-
-## How the pieces fit
-
-```
-ai-operating-model  (the system I run)
- |- work design ........ ai-workforce-design-playbook -> enforced by agentflow-hitl
- |- quality system ..... ai-quality-and-evals
- |- tools for agents ... ops-mcp-server, agentic-ai-patterns
- |- governance ......... ai-governance-framework
- '- economics .......... automation-business-case
-```
-
-All code is standard-library Python with unit tests (172 across the seven code repos).
+All code is standard-library Python except Persona Studio (React and Node), with 180 unit tests across the Python repos.
