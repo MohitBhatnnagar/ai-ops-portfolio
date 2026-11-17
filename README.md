@@ -6,9 +6,7 @@ This portfolio shows how I think about **running an organisation where AI agents
 
 LinkedIn: https://www.linkedin.com/in/mohitbhatnagar-ai/
 
-## 20 projects
-
-Rows 1 to 8 are the largest engineering projects, in order of size and complexity. Rows 9 and 10 are the two live products I shipped. Rows 11 to 20 continue in order of size and complexity.
+## 20 projects, ordered by size and technical complexity (largest first)
 
 | # | Repo | What it shows | Tests |
 |---|---|---|---|
@@ -20,26 +18,26 @@ Rows 1 to 8 are the largest engineering projects, in order of size and complexit
 | 6 | [agentic-ai-patterns](https://github.com/MohitBhatnnagar/agentic-ai-patterns) | ReAct, plan-and-execute and reflection with budgets, allow-listed tools and prompt-injection handling | 26 |
 | 7 | [mcp-gateway](https://github.com/MohitBhatnnagar/mcp-gateway) | Gateway fronting several MCP servers: namespacing, per-client policy, default deny, rate limits, audit, real stdio upstream | 31 |
 | 8 | [voice-agent-flow](https://github.com/MohitBhatnnagar/voice-agent-flow) | Voice agent call-flow engine: verification before disclosure, barge-in, escalation, latency budgets, transcript QA | 37 |
-| 9 | [horaskope](https://github.com/MohitBhatnnagar/horaskope) | A complete consumer AI product with a two-stage pipeline, live at www.horaskope.com, about 11,000 readings in beta | 8 |
-| 10 | [persona-studio](https://github.com/MohitBhatnnagar/persona-studio) | A shipped full-stack AI product (React and Node, async jobs, consent gate, rate limits). Live at www.mohitstudio.dev | 21 |
-| 11 | [llm-gateway](https://github.com/MohitBhatnnagar/llm-gateway) | OpenAI, Anthropic and Gemini adapters with routing, failover, circuit breaker, cache, budget and cost tracking | 32 |
-| 12 | [app-builder-spec-compiler](https://github.com/MohitBhatnnagar/app-builder-spec-compiler) | Lint a product spec for ambiguity and gaps, compile staged prompts for AI app builders, generate a QA checklist | 36 |
-| 13 | [rag-service](https://github.com/MohitBhatnnagar/rag-service) | Hybrid retrieval, access control before scoring, citations, abstention and groundedness checks | 31 |
-| 14 | [automation-business-case](https://github.com/MohitBhatnnagar/automation-business-case) | ROI and NPV with scenarios, Holt-Winters demand forecasting with backtests, capacity and hiring plans | 29 |
-| 15 | [coding-agent-config](https://github.com/MohitBhatnnagar/coding-agent-config) | One spec generates AGENTS.md, CLAUDE.md, Cursor rules and Replit notes; drift check and permission linter | 32 |
-| 16 | [agent-evals-harness](https://github.com/MohitBhatnnagar/agent-evals-harness) | Trajectory scoring, forbidden-tool vetoes, pass@k and pass^k reliability, regression gate | 31 |
-| 17 | [multi-agent-orchestrator](https://github.com/MohitBhatnnagar/multi-agent-orchestrator) | Supervisor and specialist agents with a permissioned blackboard, loop detection and escalation | 21 |
-| 18 | [ai-governance-framework](https://github.com/MohitBhatnnagar/ai-governance-framework) | Risk tiering, approval matrix and incident response, mapped to NIST AI RMF | 18 |
-| 19 | [ai-workforce-design-playbook](https://github.com/MohitBhatnnagar/ai-workforce-design-playbook) | Method and scoring tool for deciding what agents do alone, with approval, or not at all | 22 |
-| 20 | [ai-operating-model](https://github.com/MohitBhatnnagar/ai-operating-model) | The operating model and case study: work design, organisation, quality system, rhythm, onboarding | docs |
+| 9 | [llm-gateway](https://github.com/MohitBhatnnagar/llm-gateway) | OpenAI, Anthropic and Gemini adapters with routing, failover, circuit breaker, cache, budget and cost tracking | 32 |
+| 10 | [app-builder-spec-compiler](https://github.com/MohitBhatnnagar/app-builder-spec-compiler) | Lint a product spec for ambiguity and gaps, compile staged prompts for AI app builders, generate a QA checklist | 36 |
+| 11 | [rag-service](https://github.com/MohitBhatnnagar/rag-service) | Hybrid retrieval, access control before scoring, citations, abstention and groundedness checks | 31 |
+| 12 | [automation-business-case](https://github.com/MohitBhatnnagar/automation-business-case) | ROI and NPV with scenarios, Holt-Winters demand forecasting with backtests, capacity and hiring plans | 29 |
+| 13 | [coding-agent-config](https://github.com/MohitBhatnnagar/coding-agent-config) | One spec generates AGENTS.md, CLAUDE.md, Cursor rules and Replit notes; drift check and permission linter | 32 |
+| 14 | [persona-studio](https://github.com/MohitBhatnnagar/persona-studio) | A shipped full-stack AI product (React and Node, async jobs, consent gate, rate limits). Live at www.mohitstudio.dev | 21 |
+| 15 | [agent-evals-harness](https://github.com/MohitBhatnnagar/agent-evals-harness) | Trajectory scoring, forbidden-tool vetoes, pass@k and pass^k reliability, regression gate | 31 |
+| 16 | [multi-agent-orchestrator](https://github.com/MohitBhatnnagar/multi-agent-orchestrator) | Supervisor and specialist agents with a permissioned blackboard, loop detection and escalation | 21 |
+| 17 | [ai-governance-framework](https://github.com/MohitBhatnnagar/ai-governance-framework) | Risk tiering, approval matrix and incident response, mapped to NIST AI RMF | 18 |
+| 18 | [ai-workforce-design-playbook](https://github.com/MohitBhatnnagar/ai-workforce-design-playbook) | Method and scoring tool for deciding what agents do alone, with approval, or not at all | 22 |
+| 19 | [ai-operating-model](https://github.com/MohitBhatnnagar/ai-operating-model) | The operating model and case study: work design, organisation, quality system, rhythm, onboarding | docs |
+| 20 | [horaskope](https://github.com/MohitBhatnnagar/horaskope) | A complete consumer AI product with a two-stage pipeline, live at www.horaskope.com, about 11,000 readings in beta | 8 |
 
 **560 automated tests in total.** Python repos use only the standard library; Persona Studio is React and Node. All suites run in CI.
 
 ## How to read it
 
-- **Business and organisation:** start with row 20, the operating model and case study, then the frameworks in rows 18, 19 and 14.
-- **Agentic AI, RAG and MCP engineering:** rows 1 to 8, 11 to 13 and 15 to 17. Row 1 shows the pieces working together.
-- **Products I shipped:** rows 9 and 10.
+- **Business and organisation:** start with row 19, the operating model and case study, then the frameworks in rows 17, 18 and 12.
+- **Agentic AI, RAG and MCP engineering:** rows 1 to 11 and 13 to 16. Row 1 shows the pieces working together.
+- **Products I shipped:** rows 14 and 20.
 - Each repo's README states its design decisions and, where it applies, what it does **not** do or has not been tested against.
 
 ## Honest notes
