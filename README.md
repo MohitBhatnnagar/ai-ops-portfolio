@@ -33,14 +33,8 @@ LinkedIn: https://www.linkedin.com/in/mohitbhatnagar-ai/
 
 **560 automated tests in total.** Python repos use only the standard library; Persona Studio is React and Node. All suites run in CI.
 
-## How to read it
+## Notes
 
-- **Business and organisation:** start with row 19, the operating model and case study, then the frameworks in rows 17, 18 and 12.
-- **Agentic AI, RAG and MCP engineering:** rows 1 to 11 and 13 to 16. Row 1 shows the pieces working together.
-- **Products I shipped:** rows 14 and 20.
-- Each repo's README states its design decisions and, where it applies, what it does **not** do or has not been tested against.
-
-## Honest notes
-
-- Tool names that appear in these repos (for example n8n, Zapier, Lyzr, Bolt, Rocket, Hercules, Smallest AI, Cursor, Replit, Claude Code, Codex, ChatGPT, Gemini) are targets and examples. Where a repo describes vendor-specific file formats or API shapes, the README says they follow public documentation and were tested against fakes, not live services.
-- The model layer in every repo is an injected interface with scripted fakes in the tests, so the tests prove control logic, not model quality.
+- All data in these repositories is synthetic. Nothing from a real employer, client or customer is included.
+- The model layer in each repo is an injected interface, replaced by test doubles in the tests, so the tests verify control logic rather than model quality.
+- Tool names that appear (for example n8n, Zapier, Lyzr, Bolt, Rocket, Hercules, Smallest AI, Cursor, Replit, Claude Code, Codex, ChatGPT, Gemini) are targets and examples. Each repo's README says what it was tested against.
