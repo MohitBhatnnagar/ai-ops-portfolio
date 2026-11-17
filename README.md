@@ -23,7 +23,7 @@ LinkedIn: https://www.linkedin.com/in/mohitbhatnagar-ai/
 | 11 | [rag-service](https://github.com/MohitBhatnnagar/rag-service) | Hybrid retrieval, access control before scoring, citations, abstention and groundedness checks | 31 |
 | 12 | [automation-business-case](https://github.com/MohitBhatnnagar/automation-business-case) | ROI and NPV with scenarios, Holt-Winters demand forecasting with backtests, capacity and hiring plans | 29 |
 | 13 | [coding-agent-config](https://github.com/MohitBhatnnagar/coding-agent-config) | One spec generates AGENTS.md, CLAUDE.md, Cursor rules and Replit notes; drift check and permission linter | 32 |
-| 14 | [persona-studio](https://github.com/MohitBhatnnagar/persona-studio) | A shipped full-stack AI product (React and Node, async jobs, consent gate, rate limits). Live at mohitstudio.dev | 21 |
+| 14 | [persona-studio](https://github.com/MohitBhatnnagar/persona-studio) | A shipped full-stack AI product (React and Node, async jobs, consent gate, rate limits). Live at www.mohitstudio.dev | 21 |
 | 15 | [agent-evals-harness](https://github.com/MohitBhatnnagar/agent-evals-harness) | Trajectory scoring, forbidden-tool vetoes, pass@k and pass^k reliability, regression gate | 31 |
 | 16 | [multi-agent-orchestrator](https://github.com/MohitBhatnnagar/multi-agent-orchestrator) | Supervisor and specialist agents with a permissioned blackboard, loop detection and escalation | 21 |
 | 17 | [ai-governance-framework](https://github.com/MohitBhatnnagar/ai-governance-framework) | Risk tiering, approval matrix and incident response, mapped to NIST AI RMF | 18 |
