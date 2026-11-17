@@ -2,25 +2,45 @@
 
 Director, Operations | AI-native operations leader | P&L and budget owner. 16+ years running service businesses; most recently built and ran a 300+ person distributed delivery organisation serving US clients, taking delivery quality from 76% to 95%+ while raising productivity by more than 200%. Lean Six Sigma Black Belt.
 
-This portfolio shows how I think about **running an organisation where AI agents do the repeatable work and people handle judgement and exceptions**. It is original work on synthetic data. It contains no employer code or confidential information.
+This portfolio shows how I think about **running an organisation where AI agents do the repeatable work and people handle judgement and exceptions**: the operating model and governance around it, and the agentic AI, RAG and MCP engineering underneath. It is original work on synthetic data and contains no employer code or confidential information.
 
 LinkedIn: https://www.linkedin.com/in/mohitbhatnagar-ai/
 
-## Projects, most technically complex first
+## 20 projects, ordered by size and technical complexity (largest first)
 
 | # | Repo | What it shows | Tests |
 |---|---|---|---|
-| 1 | [ai-quality-and-evals](https://github.com/MohitBhatnnagar/ai-quality-and-evals) | Statistics for AI and human quality: SPC control charts, reviewer calibration (Cohen's kappa), BM25 / TF-IDF / hybrid retrieval evaluation with bootstrap confidence intervals | 34 |
-| 2 | [agentflow-hitl](https://github.com/MohitBhatnnagar/agentflow-hitl) | Workflow engine for AI agents: autonomy policy, durable approval gates, held outputs, hash-chained audit log | 20 |
-| 3 | [ops-mcp-server](https://github.com/MohitBhatnnagar/ops-mcp-server) | A Model Context Protocol server (JSON-RPC over stdio) with strict input validation and approval-only writes | 23 |
-| 4 | [agentic-ai-patterns](https://github.com/MohitBhatnnagar/agentic-ai-patterns) | ReAct, plan-and-execute and reflection, with budgets, allow-listed tools and prompt-injection handling | 26 |
-| 5 | [automation-business-case](https://github.com/MohitBhatnnagar/automation-business-case) | ROI and NPV with scenarios, Holt-Winters demand forecasting with backtests, capacity and hiring plans | 29 |
-| 6 | [persona-studio](https://github.com/MohitBhatnnagar/persona-studio) | A shipped full-stack AI product (React and Node, async jobs, consent gate, rate limits). Live at mohitstudio.dev | 21 |
-| 7 | [ai-governance-framework](https://github.com/MohitBhatnnagar/ai-governance-framework) | Risk tiering, approval matrix and incident response, mapped to NIST AI RMF | 18 |
-| 8 | [ai-workforce-design-playbook](https://github.com/MohitBhatnnagar/ai-workforce-design-playbook) | Method and scoring tool for deciding what agents do alone, with approval, or not at all | 22 |
-| 9 | [ai-operating-model](https://github.com/MohitBhatnnagar/ai-operating-model) | The operating model and case study: work design, organisation, quality system, rhythm, onboarding | docs |
-| 10 | [horaskope](https://github.com/MohitBhatnnagar/horaskope) | A shipped consumer AI product with a two-stage pipeline, about 11,000 readings in beta. Live at horaskope.lovable.app | 8 |
+| 1 | [ai-prospecting-outreach](https://github.com/MohitBhatnnagar/ai-prospecting-outreach) | Agentic lead-to-send pipeline: search, assessment, email verification, RAG-grounded drafting, human approval gate, throttled sending, signed reply webhooks, MCP approval tools, funnel export for dashboards | 70 |
+| 2 | [ai-quality-and-evals](https://github.com/MohitBhatnnagar/ai-quality-and-evals) | SPC control charts, reviewer calibration (Cohen's kappa), retrieval evaluation with bootstrap confidence intervals | 34 |
+| 3 | [agentflow-hitl](https://github.com/MohitBhatnnagar/agentflow-hitl) | Workflow engine for AI agents: autonomy policy, durable approval gates, held outputs, hash-chained audit log | 20 |
+| 4 | [ops-mcp-server](https://github.com/MohitBhatnnagar/ops-mcp-server) | A Model Context Protocol server over stdio with strict validation and approval-only writes | 23 |
+| 5 | [automation-platform-toolkit](https://github.com/MohitBhatnnagar/automation-platform-toolkit) | Lint n8n workflows for open webhooks, secrets and missing approvals before send; score automation platforms with sensitivity analysis | 38 |
+| 6 | [agentic-ai-patterns](https://github.com/MohitBhatnnagar/agentic-ai-patterns) | ReAct, plan-and-execute and reflection with budgets, allow-listed tools and prompt-injection handling | 26 |
+| 7 | [mcp-gateway](https://github.com/MohitBhatnnagar/mcp-gateway) | Gateway fronting several MCP servers: namespacing, per-client policy, default deny, rate limits, audit, real stdio upstream | 31 |
+| 8 | [voice-agent-flow](https://github.com/MohitBhatnnagar/voice-agent-flow) | Voice agent call-flow engine: verification before disclosure, barge-in, escalation, latency budgets, transcript QA | 37 |
+| 9 | [llm-gateway](https://github.com/MohitBhatnnagar/llm-gateway) | OpenAI, Anthropic and Gemini adapters with routing, failover, circuit breaker, cache, budget and cost tracking | 32 |
+| 10 | [app-builder-spec-compiler](https://github.com/MohitBhatnnagar/app-builder-spec-compiler) | Lint a product spec for ambiguity and gaps, compile staged prompts for AI app builders, generate a QA checklist | 36 |
+| 11 | [rag-service](https://github.com/MohitBhatnnagar/rag-service) | Hybrid retrieval, access control before scoring, citations, abstention and groundedness checks | 31 |
+| 12 | [automation-business-case](https://github.com/MohitBhatnnagar/automation-business-case) | ROI and NPV with scenarios, Holt-Winters demand forecasting with backtests, capacity and hiring plans | 29 |
+| 13 | [coding-agent-config](https://github.com/MohitBhatnnagar/coding-agent-config) | One spec generates AGENTS.md, CLAUDE.md, Cursor rules and Replit notes; drift check and permission linter | 32 |
+| 14 | [persona-studio](https://github.com/MohitBhatnnagar/persona-studio) | A shipped full-stack AI product (React and Node, async jobs, consent gate, rate limits). Live at mohitstudio.dev | 21 |
+| 15 | [agent-evals-harness](https://github.com/MohitBhatnnagar/agent-evals-harness) | Trajectory scoring, forbidden-tool vetoes, pass@k and pass^k reliability, regression gate | 31 |
+| 16 | [multi-agent-orchestrator](https://github.com/MohitBhatnnagar/multi-agent-orchestrator) | Supervisor and specialist agents with a permissioned blackboard, loop detection and escalation | 21 |
+| 17 | [ai-governance-framework](https://github.com/MohitBhatnnagar/ai-governance-framework) | Risk tiering, approval matrix and incident response, mapped to NIST AI RMF | 18 |
+| 18 | [ai-workforce-design-playbook](https://github.com/MohitBhatnnagar/ai-workforce-design-playbook) | Method and scoring tool for deciding what agents do alone, with approval, or not at all | 22 |
+| 19 | [ai-operating-model](https://github.com/MohitBhatnnagar/ai-operating-model) | The operating model and case study: work design, organisation, quality system, rhythm, onboarding | docs |
+| 20 | [horaskope](https://github.com/MohitBhatnnagar/horaskope) | A complete consumer AI product with a two-stage pipeline, live at www.horaskope.com, about 11,000 readings in beta | 8 |
 
-Order is by technical complexity (code volume, number of moving parts, depth of the underlying method). Rows 1 to 5 are the engineering depth; rows 7 to 9 are the management frameworks that tie the work together; rows 6 and 10 are products I shipped.
+**560 automated tests in total.** Python repos use only the standard library; Persona Studio is React and Node. All suites run in CI.
 
-Python repos use only the standard library and have 180 unit tests. Persona Studio (React and Node) has 21 API tests. 201 automated tests in total.
+## How to read it
+
+- **Business and organisation:** start with row 19, the operating model and case study, then the frameworks in rows 17, 18 and 12.
+- **Agentic AI, RAG and MCP engineering:** rows 1 to 11 and 13 to 16. Row 1 shows the pieces working together.
+- **Products I shipped:** rows 14 and 20.
+- Each repo's README states its design decisions and, where it applies, what it does **not** do or has not been tested against.
+
+## Honest notes
+
+- Tool names that appear in these repos (for example n8n, Zapier, Lyzr, Bolt, Rocket, Hercules, Smallest AI, Cursor, Replit, Claude Code, Codex, ChatGPT, Gemini) are targets and examples. Where a repo describes vendor-specific file formats or API shapes, the README says they follow public documentation and were tested against fakes, not live services.
+- The model layer in every repo is an injected interface with scripted fakes in the tests, so the tests prove control logic, not model quality.
