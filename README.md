@@ -13,7 +13,7 @@ LinkedIn: https://www.linkedin.com/in/mohitbhatnagar-ai/
 | 1 | [ai-prospecting-outreach](https://github.com/MohitBhatnnagar/ai-prospecting-outreach) | Agentic lead-to-send pipeline: search, assessment, email verification, RAG-grounded drafting, human approval gate, throttled sending, signed reply webhooks, MCP approval tools, funnel export for dashboards | 70 |
 | 2 | [ai-quality-and-evals](https://github.com/MohitBhatnnagar/ai-quality-and-evals) | SPC control charts, reviewer calibration (Cohen's kappa), retrieval evaluation with bootstrap confidence intervals | 34 |
 | 3 | [agentflow-hitl](https://github.com/MohitBhatnnagar/agentflow-hitl) | Workflow engine for AI agents: autonomy policy, durable approval gates, held outputs, hash-chained audit log | 20 |
-| 4 | [mohit-app-builder](https://github.com/MohitBhatnnagar/mohit-app-builder) | MCP app builder: Claude or Cursor creates, runs, screenshots and versions full-stack apps with database, sign-in, storage, email, Claude AI and demo data built in; a local take on Floot | 65 |
+| 4 | [mohit-app-builder](https://github.com/MohitBhatnnagar/mohit-app-builder) | MCP app builder: Claude or Cursor creates, runs, screenshots and versions full-stack apps with database, sign-in, storage, email, Claude AI and demo data built in; a local take on Floot | 67 |
 | 5 | [ops-mcp-server](https://github.com/MohitBhatnnagar/ops-mcp-server) | A Model Context Protocol server over stdio with strict validation and approval-only writes | 23 |
 | 6 | [automation-platform-toolkit](https://github.com/MohitBhatnnagar/automation-platform-toolkit) | Lint n8n workflows for open webhooks, secrets and missing approvals before send; score automation platforms with sensitivity analysis | 38 |
 | 7 | [agentic-ai-patterns](https://github.com/MohitBhatnnagar/agentic-ai-patterns) | ReAct, plan-and-execute and reflection with budgets, allow-listed tools and prompt-injection handling | 26 |
@@ -32,7 +32,7 @@ LinkedIn: https://www.linkedin.com/in/mohitbhatnagar-ai/
 | 20 | [ai-operating-model](https://github.com/MohitBhatnnagar/ai-operating-model) | The operating model and case study: work design, organisation, quality system, rhythm, onboarding | docs |
 | 21 | [horaskope](https://github.com/MohitBhatnnagar/horaskope) | A complete consumer AI product with a two-stage pipeline, live at www.horaskope.com, about 11,000 readings in beta | 8 |
 
-**625 automated tests in total.** Python repos use only the standard library; Persona Studio is React and Node; Mohit is TypeScript on Node. All suites run in CI.
+**627 automated tests in total.** Python repos use only the standard library; Persona Studio is React and Node; Mohit is TypeScript on Node. All suites run in CI.
 
 ## Notes
 
